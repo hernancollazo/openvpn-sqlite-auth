@@ -40,6 +40,7 @@ using SQLite to store credentials.
 
 ## Utilities:
 
-  - `./user-add.py <username>`: Add a new user to the database.
+  - `./user-add.py <username> <password>`: Add a new user to the database in batch mode.
+  - `./user-add-interactive.py <username>`: Add a new user to the database.
   - `./user-del.py <username>`: Remove an user from the database.
   - `./user-list.py`: List registered users.
